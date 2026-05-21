@@ -1,0 +1,581 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.contenedor {
+    width: 950px;
+    margin: 0 auto; 
+    padding: 20px 0;
+}
+
+.cabecera {
+    background-color: #111;
+    border-bottom: 2px solid #ff6b00;
+}
+
+.logo {
+    display: inline-block;
+    width: 30%;
+}
+
+.logo h1 {
+    color: #ff6b00;
+    font-size: 28px;
+}
+
+.menu-principal {
+    display: inline-block;
+    width: 68%;
+    text-align: right;
+}
+
+.menu-principal ul {
+    list-style: none;
+}
+
+.menu-principal ul li {
+    display: inline-block; 
+    margin-left: 15px;
+}
+
+.menu-principal ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase; 
+}
+
+.menu-principal ul li a:hover {
+    color: #ff6b00;
+}
+
+.banner-principal {
+    background: linear-gradient(135deg, #ff6b00, #ff0066, #6a00ff);
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+.banner-principal h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.titulo-gigante {
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.fecha-lugar {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.botones a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.btn-primario {
+    background-color: #ff6b00;
+    color: #fff;
+}
+
+.btn-secundario {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+.cuenta-regresiva {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.cuenta-regresiva p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.tiempo {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.tiempo span {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.estadisticas {
+    background-color: #fff;
+    color: #000;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.dato {
+    display: inline-block;
+    width: 18%;
+    vertical-align: middle;
+}
+
+.dato h3 {
+    color: #ff0066;
+    font-size: 28px;
+}
+
+.dato p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.artistas {
+    background-color: #f4f4f4;
+    color: #000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.titulo-seccion {
+    color: #ff0066;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.lista-artistas {
+    text-align: center;
+}
+
+
+.tarjeta-artista {
+    display: inline-block;
+    background-color: #fff;
+    width: 20%;
+    margin: 0 1%;
+    padding: 25px 10px;
+    border-radius: 15px;
+    border: 1px solid #ddd; 
+}
+
+
+.circulo-artista-lr {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 65px; 
+    margin: 0 auto 15px auto;
+    background-color: #ff0066; 
+}
+
+.circulo-artista-on {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 65px; 
+    margin: 0 auto 15px auto;
+    background-color: #6a00ff; 
+}
+
+.circulo-artista-sb {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 65px; 
+    margin: 0 auto 15px auto;
+    background-color: #cc2ec9;
+}
+
+.circulo-artista-ac {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 65px; 
+    margin: 0 auto 15px auto;
+    background-color: #2ecc71; 
+}
+
+.tarjeta-artista h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.tarjeta-artista p {
+    font-size: 13px;
+    color: #666;
+}
+
+.programa {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.titulo-seccion-oscura {
+    color: #ff6b00;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.lista-horarios {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.evento {
+    border-bottom: 1px solid #333;
+    padding: 20px 0;
+}
+
+.hora {
+    display: inline-block;
+    width: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0066;
+    vertical-align: middle;
+}
+
+.detalle-evento {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+}
+
+.detalle-evento h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.entradas {
+    background-color: #000;
+    padding: 60px 0;
+}
+
+.subtitulo {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.lista-precios {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tarjeta-precio {
+    display: inline-block;
+    background-color: #111;
+    width: 25%;
+    margin: 0 2%;
+    padding: 30px 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.tarjeta-precio-vip {
+    display: inline-block;
+    background-color: #111;
+    width: 25%;
+    margin: 0 2%;
+    padding: 42px 20px;
+    border: 1px solid #333;
+    border-color: #ff6b00;
+    border-radius: 10px;
+}
+
+.tarjeta-precio-premiun{
+    display: inline-block;
+    background-color: #111;
+    width: 25%;
+    margin: 0 2%;
+    padding: 42px 20px;
+    border: 1px solid #333;
+    border-color: #cc2ec9;
+    border-radius: 10px;
+}
+
+.tarjeta-precio h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.precio {
+    color: #ff0066;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-comprar {
+    display: inline-block;
+    background-color: transparent;
+    color: #ff6b00;
+    border: 1px solid #ff6b00;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-comprar:hover {
+    background-color: #ff6b00;
+    color: #fff;
+}
+
+.btn-bloque {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(135deg, #ff6b00, #ff0066);
+    color: white;
+    padding: 15px 100px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.viajes {
+    background-color: #f9f9f9;
+    color: #000;
+    padding: 60px 0;
+}
+
+.lista-viajes {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tarjeta-viaje {
+    display: inline-block;
+    background-color: #fff;
+    width: 28%;
+    margin: 0 2%;
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tarjeta-viaje h3 {
+    color: #ff6b00;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.tarjeta-viaje p {
+    font-size: 19px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.patrocinadores {
+    background-color: #000;
+    padding: 40px 0;
+    border-top: 1px solid #222;
+}
+
+.lista-logos {
+    margin-top: 30px;
+}
+
+.logo-texto {
+    display: inline-block;
+    color: #666;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 25px;
+    text-transform: uppercase;
+}
+
+.pie-pagina {
+    background-color: #111;
+    color: #999;
+    padding: 50px 0;
+    border-top: 2px solid #ff6b00;
+    font-size: 13px;
+}
+
+.columna-pie {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+    text-align: right;
+}
+
+.columna-pie a{
+    text-decoration: none;
+    color: #999;
+}
+
+.columna-pie h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.columna-pie p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 960px) {
+    .contenedor { 
+        width: 95%; 
+    }
+ 
+    /* Apilamos todos los elementos en una sola columna */
+    .logo, 
+    .menu-principal, 
+    .dato, 
+    .tarjeta-artista, 
+    .tarjeta-precio, 
+    .tarjeta-precio-vip, 
+    .tarjeta-precio-premiun, 
+    .tarjeta-viaje, 
+    .columna-pie {
+        width: 100%;
+        display: block;
+        margin: 20px 10px 20px 0;
+    }
+ 
+    .menu-principal { text-align: center; }
+    .columna-pie { text-align: center; }
+    
+    .titulo-gigante { font-size: 40px; }
+    .btn-bloque { width: 90%; padding: 15px 0; }
+}
+ 
+@media (max-width: 600px) {
+    .contenedor {
+        width: 100%;
+        padding: 20px 15px;
+    }
+ 
+    .logo h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+ 
+    .menu-principal ul li {
+        display: inline-block;
+        margin: 4px 6px;
+    }
+ 
+    .titulo-gigante {
+        font-size: 28px;
+    }
+ 
+    .banner-principal h2 {
+        font-size: 11px;
+    }
+ 
+    .fecha-lugar {
+        font-size: 13px;
+    }
+ 
+    .botones a {
+        display: block;
+        margin: 8px auto;
+        width: 80%;
+        text-align: center;
+    }
+ 
+    .cuenta-regresiva {
+        padding: 15px 20px;
+        width: 90%;
+    }
+ 
+    .tiempo {
+        margin: 0 8px;
+    }
+ 
+    .tiempo span {
+        font-size: 24px;
+    }
+ 
+    .estadisticas .contenedor {
+        padding: 15px;
+    }
+ 
+    .dato {
+        width: 45%;
+        display: inline-block;
+        margin: 10px 2%;
+    }
+ 
+    .lista-horarios {
+        width: 100%;
+    }
+ 
+    .hora {
+        font-size: 16px;
+    }
+ 
+    .detalle-evento h4 {
+        font-size: 15px;
+    }
+ 
+    .precio {
+        font-size: 32px;
+    }
+ 
+    .tarjeta-precio-vip,
+    .tarjeta-precio-premiun {
+        padding: 30px 20px;
+    }
+ 
+    .tarjeta-viaje p {
+        font-size: 15px;
+    }
+ 
+    .logo-texto {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+ 
+    .pie-pagina {
+        font-size: 12px;
+    }
+}
+
